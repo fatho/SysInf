@@ -1,0 +1,8 @@
+$a := p(0);
+push ;
+$a := 4;
+push ;
+stack * ;
+pop ;
+p($a) = 1;
+p(p($a)) := $a + 1;
